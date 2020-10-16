@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2020-10-15T14:01:33.493+03:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wkndmuzik/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -10,17 +12,217 @@
         jcr:title="Footer"
         sling:resourceType="wkndmuzik/components/xfpage">
         <root
+            jcr:lastModified="{Date}2020-10-14T16:59:54.226+03:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wkndmuzik/components/container"
             layout="responsiveGrid">
+            <container_1841329798
+                cq:styleIds="[1602750551293]"
+                jcr:created="{Date}2020-10-15T11:27:50.387+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-15T11:31:02.122+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wkndmuzik/components/container"
+                layout="responsiveGrid">
+                <container
+                    jcr:created="{Date}2020-10-14T17:01:01.596+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-14T17:01:01.596+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/container">
+                    <text
+                        cq:styleIds="[1602751574828]"
+                        jcr:created="{Date}2020-10-14T17:07:05.041+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-14T17:07:22.888+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/text"
+                        text="&lt;p>MEMBERSHIPS&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <list
+                        jcr:created="{Date}2020-10-14T17:01:17.097+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-15T14:01:19.200+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/list"
+                        childDepth="1"
+                        linkItems="true"
+                        listFrom="children"
+                        parentPage="/content/wkndmuzik/us/en/memberships"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </container>
+                <container_copy
+                    jcr:created="{Date}2020-10-14T17:01:01.596+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-14T17:01:01.596+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/container">
+                    <text
+                        cq:styleIds="[1602751574828]"
+                        jcr:created="{Date}2020-10-14T17:07:05.041+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-14T17:11:07.190+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/text"
+                        text="&lt;p>SHOWS&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <list
+                        jcr:created="{Date}2020-10-14T17:01:17.097+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-15T14:01:26.241+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/list"
+                        childDepth="1"
+                        linkItems="true"
+                        listFrom="children"
+                        parentPage="/content/wkndmuzik/us/en/shows"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </container_copy>
+                <container_copy_1014723930
+                    jcr:created="{Date}2020-10-14T17:01:01.596+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-14T17:01:01.596+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/container">
+                    <text
+                        cq:styleIds="[1602751574828]"
+                        jcr:created="{Date}2020-10-14T17:07:05.041+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-14T17:11:16.364+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/text"
+                        text="&lt;p>CONTACT&lt;/p>&#xd;&#xa;"
+                        textIsRich="true"/>
+                    <list
+                        jcr:created="{Date}2020-10-14T17:01:17.097+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-15T14:01:33.470+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/list"
+                        childDepth="1"
+                        linkItems="true"
+                        listFrom="children"
+                        parentPage="/content/wkndmuzik/us/en/blog"
+                        showDescription="false"
+                        showModificationDate="false"
+                        sortOrder="asc"
+                        tagsMatch="any"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="3"/>
+                    </cq:responsive>
+                </container_copy_1014723930>
+                <container_1810469221
+                    cq:styleIds="[1602702445027]"
+                    jcr:created="{Date}2020-10-14T17:08:46.515+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-14T17:08:46.515+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/container">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="2"/>
+                    </cq:responsive>
+                    <button
+                        cq:styleIds="[1602751615393]"
+                        jcr:created="{Date}2020-10-14T17:09:14.078+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-15T11:15:31.123+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/button"
+                        icon="stub fab fa-instagram"/>
+                    <button_184513321
+                        cq:styleIds="[1602751615393]"
+                        jcr:created="{Date}2020-10-14T17:09:28.513+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-15T11:16:44.756+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/button"
+                        icon="stub fab fa-twitter"/>
+                    <button_1274905470
+                        cq:styleIds="[1602751615393]"
+                        jcr:created="{Date}2020-10-14T17:09:49.250+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2020-10-15T11:17:19.755+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wkndmuzik/components/button"
+                        icon="stub fab fa-facebook-f"/>
+                </container_1810469221>
+                <button
+                    cq:styleIds="[1602751615393]"
+                    jcr:created="{Date}2020-10-14T17:10:27.110+03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-10-15T11:54:45.130+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/button"
+                    icon="stub fas fa-arrow-up"
+                    id="back-to-top">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="1"/>
+                    </cq:responsive>
+                </button>
+            </container_1841329798>
             <separator
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/separator"/>
-            <text
+            <container
+                cq:styleIds="[1602750551293]"
+                jcr:created="{Date}2020-10-15T11:37:27.714+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-15T11:37:27.714+03:00"
+                jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wkndmuzik/components/text"
-                text="&lt;p>Copyright 2020, WKND MUZIK.&amp;nbsp;All rights reserved.&lt;/p>&#xd;&#xa;&lt;p>345 Park Avenue,&amp;nbsp;San Jose, CA 95110-2704, USA&lt;/p>&#xd;&#xa;"
-                textIsRich="true"/>
+                sling:resourceType="wkndmuzik/components/container">
+                <text
+                    cq:styleIds="[1602751023685]"
+                    jcr:lastModified="{Date}2020-10-14T17:00:32.975+03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wkndmuzik/components/text"
+                    text="&lt;p>2020 Demo Site. Intended only as a demonstration of Adobe Experience Manager&lt;/p>&#xd;&#xa;"
+                    textIsRich="true"/>
+            </container>
         </root>
     </jcr:content>
 </jcr:root>

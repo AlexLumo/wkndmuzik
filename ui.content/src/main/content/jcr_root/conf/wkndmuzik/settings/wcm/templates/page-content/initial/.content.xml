@@ -11,9 +11,6 @@
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wkndmuzik/components/container">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wkndmuzik/components/title"/>
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wkndmuzik/components/container"
