@@ -1,0 +1,52 @@
+@import "../variables";
+
+.button--transparent {
+
+  padding-top: .75rem;
+  text-align: center;
+
+  .cmp-button {
+    color: @white;
+    background: transparent;
+    outline: none;
+    border: 1px solid @white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-family: @montserrat-bold;
+    padding: .5rem 1.25rem;
+
+    &__text {
+      margin-left: .5rem;
+    }
+  }
+}
+
+.button-big {
+
+  text-align: center;
+  margin: 5rem 0 2rem;
+
+  .cmp-button {
+    color: @white;
+    background-color: @blue;
+    font-size: 1.1875rem;
+    font-family: @montserrat-bold;
+    border-radius: 5px;
+    padding: 1rem 5rem;
+    outline: none;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+}
+
+.icononly {
+  .cmp-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: @white;
+  }
+}

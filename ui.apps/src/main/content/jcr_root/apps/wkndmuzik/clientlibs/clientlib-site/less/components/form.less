@@ -1,0 +1,56 @@
+@import "../variables";
+
+.cmp-form {
+
+  margin: 3rem 0 7rem;
+
+  label {
+    margin-bottom: 1rem;
+  }
+
+  input[type=text], input[type=tel], input[type=email], select {
+    box-sizing: border-box;
+    width: 300px;
+    background-color: @black;
+    border: 1px solid @white;
+    color: @white;
+    padding: .75rem .5rem .5rem .75rem;
+    border-radius: 5px;
+  }
+
+  &-button {
+    width: 100%;
+    background-color: @blue;
+    color: @white;
+    text-transform: uppercase;
+    font-family: @montserrat-bold;
+    font-size: .875rem;
+    margin-top: 4rem;
+    text-align: center;
+    padding: .75rem 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+  }
+
+  &-options {
+    border: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    &__field-label {
+      margin: 1rem 0;
+    }
+
+    &__legend {
+      margin-bottom: 1rem;
+    }
+  }
+  &-text {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+}

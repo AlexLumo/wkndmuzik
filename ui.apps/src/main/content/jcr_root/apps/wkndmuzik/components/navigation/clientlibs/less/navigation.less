@@ -1,0 +1,26 @@
+@import "/apps/wkndmuzik/clientlibs/clientlib-site/less/variables.less";
+
+.cmp-navigation {
+
+  &__group {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  &__item {
+    display: inline-block;
+    &:last-of-type {
+      display: none;
+    }
+
+    &-link {
+      text-transform: uppercase;
+      color: @white;
+      text-decoration: none;
+      font-size: .75rem;
+      font-family: @montserrat-bold;
+      padding: 0 1.5rem;
+    }
+  }
+}

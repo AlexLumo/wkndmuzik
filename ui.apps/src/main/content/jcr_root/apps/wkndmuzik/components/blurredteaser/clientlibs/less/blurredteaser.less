@@ -1,0 +1,35 @@
+@import "/apps/wkndmuzik/clientlibs/clientlib-site/less/variables.less";
+
+.cmp-teaser--blurred {
+
+  background-size: cover;
+
+  .cmp-teaser__title {
+    margin: 0;
+    font-size: 1.31rem;
+    font-family: @montserrat-semibold;
+  }
+
+  .cmp-teaser__content {
+    padding: 1rem;
+    backdrop-filter: blur(25px);
+    min-height: 9rem;
+    line-height: 1.7;
+  }
+
+  .cmp-image__image {
+    display: block;
+  }
+}
+
+.blurredteaser {
+  padding: 0 .5rem;
+
+  &:first-of-type {
+    padding: 0 0.5rem 0 0;
+  }
+
+  &:last-of-type {
+    padding: 0 0 0 0.5rem;
+  }
+}

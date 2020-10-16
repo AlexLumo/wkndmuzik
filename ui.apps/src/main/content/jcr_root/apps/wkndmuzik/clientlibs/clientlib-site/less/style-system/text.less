@@ -1,0 +1,48 @@
+@import "../variables";
+
+.underlined-header {
+  h2 {
+    text-transform: uppercase;
+    font-size: 2.5625rem;
+    font-family: @montserrat-bold;
+    position: relative;
+    margin: 5rem 0;
+
+    &:after {
+      content: "";
+      display: inline-block;
+      height: 5px;
+      width: 130px;
+      background-color: @blue;
+      position: absolute;
+      bottom: -24px;
+      left: 0;
+    }
+  }
+
+  &.align-center {
+    h2 {
+      &:after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}
+
+
+.copyright {
+  .cmp-text {
+    font-size: .875rem;
+    color: @dark-gray;
+    margin: 1.5rem 0;
+  }
+}
+
+.columnheader {
+  .cmp-text {
+    font-size: .75rem;
+    font-family: @montserrat-bold;
+  }
+}
+

@@ -1,0 +1,39 @@
+@import "../variables";
+
+.cmp-breadcrumb {
+  margin: 1rem 0 2rem;
+  &__list {
+    padding: 0 0 0 30px;
+  }
+
+  &__item {
+
+    font-family: @montserrat-bold;
+    font-size: .75rem;
+
+    &-link {
+      text-decoration: none;
+    }
+
+    span {
+      text-decoration: underline;
+    }
+
+    &-link {
+      color: @white;
+      font-family: @montserrat;
+    }
+
+    &:after {
+      content: ">";
+      display: inline-block;
+      padding: 0 0.25rem;
+    }
+
+    &:last-of-type {
+      &:after {
+        content: "";
+      }
+    }
+  }
+}

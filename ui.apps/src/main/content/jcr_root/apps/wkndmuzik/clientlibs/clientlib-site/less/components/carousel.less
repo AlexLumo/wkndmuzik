@@ -1,0 +1,33 @@
+@import "../variables";
+
+.cmp-carousel {
+
+  &__content {
+    position: relative;
+  }
+
+  &__indicators {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-direction: column;
+  }
+
+  &__indicator {
+    background-color: @gray;
+    margin: 11px;
+    width: 6px;
+    height: 6px;
+
+    &--active {
+      background-color: @white;
+      margin: 7px 9px;
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  &__actions {
+    display: none;
+  }
+}
