@@ -1,7 +1,5 @@
-# Sample AEM project template
-
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
-
+# Digital Foundation Blueprint: Lean Code Contest 
+# Built and tested on AEM 6.5.0
 ## Modules
 
 The main parts of the template are:
